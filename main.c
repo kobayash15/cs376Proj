@@ -9,6 +9,7 @@
  *
  */
 #include "robot.h"
+#include "lemon17.h"
 
 /**
  * main()
@@ -33,6 +34,8 @@ int main(int argc, const char * argv[])
   robPrintAscii();
 
   robPrintMessage(num);
+
+  lemon17();
 
   return 0;
 }
