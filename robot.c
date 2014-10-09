@@ -25,7 +25,7 @@ void robPrintMessage(int num)
 {
   int i = 0;
 
-  printf("Nerissa ");
+  printf("Nerissa and Ken");
 
   for(i; i < num; i++)
     {
