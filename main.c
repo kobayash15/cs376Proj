@@ -9,6 +9,7 @@
  *
  */
 #include "robot.h"
+#include "kobayash15.h"
 
 /**
  * main()
@@ -31,8 +32,11 @@ int main(int argc, const char * argv[])
   int num = atoi(argv[1]);
 
   robPrintAscii();
+  
 
   robPrintMessage(num);
+
+  kobayash15();
 
   return 0;
 }
