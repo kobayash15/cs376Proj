@@ -5,6 +5,7 @@
  * ~/robots example source for Software Engineering.
  *
  * @author Tanya L. Crenshaw
+ * @author Nerissa Lemon
  * @since August 2013
  *
  */
@@ -44,7 +45,7 @@ void robPrintMessage(int num)
 void robPrintAscii(void)
 {
   printf("    i_i    \n"
-	 "   [@_@]   \n"
+	 "   [b_d]   \n"
 	 "  /|___|\\  \n"
          "   d   b   "); 
 
