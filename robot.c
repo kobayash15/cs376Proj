@@ -1,10 +1,9 @@
 /**
  * robot.c
  *
- * A file that contains the supporting functions for main() in the
- * ~/robots example source for Software Engineering.
+ * A really great file that contains the supporting functions for
+ * main() in the ~/robots example source for Software Engineering.
  *
-<<<<<<< HEAD
  * @author Tanya L. Crenshaw
  * @author Nerissa Lemon
  * @author Ken Kobayashi
