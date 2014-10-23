@@ -46,7 +46,7 @@ void robPrintMessage(int num)
 void robPrintAscii(void)
 {
   printf("    i_i    \n"
-	 "   [*_d]   \n"
+	 "   [>_d]   \n"
 	 "  /|___|\\  \n"
          "   d   b   "); 
 
