@@ -1,4 +1,4 @@
-/**
+/*
  * robot.c
  *
  * A really great file that contains the supporting functions for
@@ -45,9 +45,29 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
-  printf("    i_i    \n"
-	 "   [>_d]   \n"
-	 "  /|___|\\  \n"
-         "   d   b   "); 
+  int j;
+ 
+ for( j = 0; j < 3; j++){
+    int a;    
+    for(a = 0; a < j; a++){
+      printf("\t");
+    }
+    printf("    i_i    \n");
+    for(a = 0; a < j; a++){
+      printf("\t");
+    }
+    printf("   [>_d]   \n");
+    for(a = 0; a < j; a++){
+      printf("\t");
+    }
+    printf("  /|___|\\  \n");
+    for(a = 0; a < j; a++){
+      printf("\t");
+    }
+    printf("   d   b   \n"); 
+  }
 
 }
+
+ 
+
